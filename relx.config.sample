@@ -1,0 +1,10 @@
+{extended_start_script, true}.
+{lib_dirs, ["/opt/erlang/lib"]}. %% customize this path
+{release, {biten, "0.1"}, [biten,
+                           sasl,
+                           debugger,
+                           runtime_tools,
+                           wx,
+                           observer,
+                           eper
+                          ]}.
